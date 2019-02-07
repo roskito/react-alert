@@ -5,6 +5,7 @@ export const getStyles = ({ position, zIndex }) => {
     case 'top left':
       return {
         position: 'fixed',
+        width: '400px',
         top: 0,
         right: 'auto',
         bottom: 'auto',
@@ -14,6 +15,7 @@ export const getStyles = ({ position, zIndex }) => {
     case 'top right':
       return {
         position: 'fixed',
+        width: '400px',
         top: 0,
         right: 0,
         bottom: 'auto',
@@ -23,6 +25,7 @@ export const getStyles = ({ position, zIndex }) => {
     case 'bottom left':
       return {
         position: 'fixed',
+        width: '400px',
         top: 'auto',
         right: 'auto',
         bottom: 0,
@@ -32,6 +35,7 @@ export const getStyles = ({ position, zIndex }) => {
     case 'bottom right':
       return {
         position: 'fixed',
+        width: '400px',
         top: 'auto',
         right: 0,
         bottom: 0,
@@ -41,6 +45,7 @@ export const getStyles = ({ position, zIndex }) => {
     case 'top center':
       return {
         position: 'fixed',
+        width: '400px',
         top: 0,
         right: 'auto',
         bottom: 'auto',
@@ -51,6 +56,7 @@ export const getStyles = ({ position, zIndex }) => {
     case 'bottom center':
       return {
         position: 'fixed',
+        width: '400px',
         top: 'auto',
         right: 'auto',
         bottom: 0,
